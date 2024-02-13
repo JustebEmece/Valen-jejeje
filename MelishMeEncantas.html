@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Ola te quiero
+    </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        body {background-color: pink;
+
+    </style>
+    <script>
+        function cuandodigaqsi(){
+            alert ("7pm paso a tu casa, te amooo, dale aceptar 💞💞");
+            location.href = 'https://youtu.be/DBu6FZr95mk?t=13'
+        }
+
+        function mueveElBoton(){
+            width = window.innerWidth;
+            height = window.innerHeight;
+
+            newWidth = (Math.random() * width);
+            newHeight = (Math.random() * height);
+
+    
+            document.getElementById('btnNo').style.position = "absolute";
+            document.getElementById('btnNo').style.left = newWidth + "px";
+            document.getElementById('btnNo').style.top = newHeight + "px";
+            
+
+        }
+
+    </script>
+</head>
+<body>
+    <h3>♥ Se que no soy el mejor progamador, pero ya progame mi corazon para pasarlo contigo el 14, aceptas? ♥</h3>
+    <img src="mle.jpeg" width="60"/>
+    <input type="button" onclick="cuandodigaqsi()" id="btnSi" value="Siiii💞💞" />
+    <input type="button" id="btnNo" onmouseover="mueveElBoton()" value="No manito😔😔" />
+    <img src="gojo.png" width="100"/>
+
+</body>
+</html>>
